@@ -69,3 +69,7 @@ Instead of running the server-side application manually using `node source/main.
 ```
 forever start source/main.js
 ```
+
+## Credit
+
+[[Orhan Kemal Yüksel][https://emancipatory.technology/person/orhan-kemal-yueksel/] developed and deployed the web application and contributed to the analysis of the resulting data using [[GNU R][https://www.r-project.org/] and [[Gephi][https://gephi.org/]].
