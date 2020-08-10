@@ -2,7 +2,7 @@
 
 ## About
 
-This web application is designed to enable the random visualisation of images from a corpus of Instagram. The application was developed for a project developed by the Technical University of Munich about vertical farming.
+This web application is designed to enable the random visualisation and user interaction with Instagram images. The application was developed for a project developed by the Technical University of Munich about vertical farming.
 
 ## Technical Implementation
 
