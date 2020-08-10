@@ -1,0 +1,93 @@
+@import "~bulma/sass/utilities/_all";
+
+/* configure bulma: */
+
+$link: $blue;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+/* style own components: */
+
+$imageBorder: $panel-item-border;
+$imageColumnWidth: 50vh;
+
+body {
+  color: $black-bis;
+  font-family: $family-sans-serif;
+  margin: 0px;
+
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  .index {
+
+    input[type="text"],
+    textarea {
+      font-family: $family-sans-serif;
+    }
+
+    textarea {
+      height: 6em;
+      resize: vertical;
+    }
+
+    .imageSelection {
+
+      .imageAndArrows {
+        display: flex;
+        justify-content: center;
+
+        & > figure {
+          flex-grow: 0;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: $imageColumnWidth;
+          width: $imageColumnWidth;
+        }
+
+        & > .imageButton {
+          cursor: pointer;
+          font-size: 2.5rem;
+          height: $imageColumnWidth;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          flex-grow: 1;
+          padding: 1em;
+
+          &:first-of-type {
+            text-align: right;
+          }
+
+          &:last-of-type {
+            text-align: left;
+          }
+
+          &:hover {
+            color: $link;
+          }
+
+          &.disabled, &.disabled:hover {
+            color: $grey-lighter;
+            cursor: default;
+          }
+        }
+      }
+
+      .imageInfo {
+        font-size: 0.8em;
+      }
+    }
+
+    .panel-block a:hover {
+      color: $link;
+      cursor: default;
+    }
+  }
+}

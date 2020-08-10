@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "source/main.js",
+  "author": "Orhan Kemal Yüksel <orhan.kemal.yuksel@gmail.com>",
+  "license": "GPLv3",
+  "private": true,
+  "scripts": {
+    "development": "yarn run nodemon source/main.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
