@@ -2,7 +2,7 @@
 
 ## About
 
-This web application enables users to interact with images randomly selected from an Instagram corpus. The application was developed for a project developed by the Technical University of Munich about vertical farming.
+This web application enables users to interact with images randomly selected from an Instagram corpus. The application was developed for the Cultivating Engagement project by the Munich Centre for Technology in Society (2017-2018).
 
 ## Technical Implementation
 
