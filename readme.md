@@ -19,10 +19,10 @@ cd SOME_PATH
 git clone REPOSITORY_URL
 ```
 
-Run the client-side / front-end application as follows. This will launch a development web-server which watches all files in =~/SOME_PATH/client/source/= for changes.
+Run the client-side / front-end application as follows. This will launch a development web-server which watches all files in `~/SOME_PATH/client/source/` for changes.
 
 ```
-cd SOME_PATH/visioning-vertical-farming/application/client/
+cd SOME_PATH/client
 yarn
 yarn run development
 ```
@@ -30,7 +30,7 @@ yarn run development
 In another terminal, start the server-side / back-end application:
 
 ```
-cd SOME_PATH/visioning-vertical-farming/application/server/
+cd SOME_PATH/server/
 yarn
 yarn run development
 ```
