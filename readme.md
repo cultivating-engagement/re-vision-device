@@ -64,7 +64,7 @@ yarn
 node source/main.js
 ```
 
-Instead of running the server-side application manually using `node source/main.js`, you can use a *process manager*. One very simple process manager is [https://github.com/foreverjs/forever](forever.js). You can use it like this:
+Instead of running the server-side application manually using `node source/main.js`, you can use a *process manager*. One very simple process manager is [forever.js](https://github.com/foreverjs/forever). You can use it like this:
 
 ```
 forever start source/main.js
@@ -72,4 +72,4 @@ forever start source/main.js
 
 ## Credit
 
-[[Orhan Kemal Yüksel][https://emancipatory.technology/person/orhan-kemal-yueksel/] developed and deployed the web application and contributed to the analysis of the resulting data using [GNU R](https://www.r-project.org/) and [Gephi](https://gephi.org/).
+[Orhan Kemal Yüksel](https://emancipatory.technology/person/orhan-kemal-yueksel/) developed and deployed the web application and contributed to the analysis of the resulting data using [GNU R](https://www.r-project.org/) and [Gephi](https://gephi.org/).
