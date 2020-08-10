@@ -35,7 +35,7 @@ yarn
 yarn run development
 ```
 
-Visit [http://localhost:8080](localhost:8080) with your web-browser.
+Visit [localhost:8080](http://localhost:8080) with your web-browser.
 
 ### Deployment for Production Usage
 
