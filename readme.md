@@ -1,8 +1,8 @@
-# Re-vision Device
+# Re-visioning Device
 
 ## About
 
-By interacting with this web application, users could re-vision *vertical farming*, based upon images from Instagram.
+This web application is designed to enable the random visualisation of images from a corpus of Instagram. The application was developed for a project developed by the Technical University of Munich about vertical farming.
 
 ## Technical Implementation
 
